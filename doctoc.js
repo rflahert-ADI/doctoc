@@ -30,7 +30,8 @@ function transformAndSave(files, mode, maxHeaderLevel, title, notitle, entryPref
   var transformed = files
     .map(function (x) {
       var content = fs.readFileSync(x.path, 'utf8')
-        , result = transform(content, mode, maxHeaderLevel, title, notitle, entryPrefix, processAll, updateOnly);
+        , mdx = path.extname(x.path) === '.mdx'
+        , result = transform(content, mode, maxHeaderLevel, title, notitle, entryPrefix, processAll, updateOnly, mdx);
       result.path = x.path;
       return result;
     });
