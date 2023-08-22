@@ -21,8 +21,8 @@ by github or other sites via a command line flag.
   - [Printing to stdout](#printing-to-stdout)
   - [Usage as a `git` hook](#usage-as-a-git-hook)
   - [Docker image](#docker-image)
-
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+- [This fork](#this-fork)
+<!-- END doctoc  -->
 
 
 ## Installation
@@ -156,3 +156,6 @@ TOC stays up-to-date.
 ### Docker image
 
 There's an unofficial Docker image project for doctoc, if you'd like to use doctoc via Docker or other container based CI/CD pipeline, you can take a look at [PeterDaveHello/docker-doctoc](https://github.com/PeterDaveHello/docker-doctoc)
+
+## This fork
+This fork adds mdx support, letting it open .mdx files and using mdx-style comments.

@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+# **Table of Contents**
+
+- [CNN](#cnn)
+- [Get Involved *](#get-involved-)
+- [Translation Status *](#translation-status-)
+- [Building *](#building-)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # [CNN](https://www.cnn.com)
 
 This header's a link to another site. We want to just show the link's text, not

@@ -8,6 +8,9 @@ docker convenience functions on top of dockerode
 
 - [Installation](#installation)
 - [API](#api)
+    - [dockops::Containers(docker) → {Object}](#dockopscontainersdocker-%E2%86%92-object)
+    - [dockops::Containers::activePorts(cb)](#dockopscontainersactiveportscb)
+    - [dockops::Containers::clean(id, cb)](#dockopscontainerscleanid-cb)
 - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
